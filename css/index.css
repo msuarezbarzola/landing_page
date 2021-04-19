@@ -1,0 +1,98 @@
+#header {
+    background: white;
+    /* background:rgba(11, 189, 70, 0.5); */
+    font-size: small;   
+}
+
+
+#header img {
+    width: 30px;
+}
+
+h1 {
+    color: #35d0ba;
+}
+
+
+
+
+#main .carousel-inner img {
+    max-height: 140vh;
+    object-fit: cover;
+    /* filter: grayscale(70%); */
+  }
+
+#carousel {
+    position: relative;
+
+}
+
+#carousel .overlay {
+    position: absolute;
+    /*
+    top: 67%;
+    */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0, 0.1);
+    color: white;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;
+}
+
+
+#header a {
+    color: #35d0ba;
+    cursor: hand; 
+    font-size: small;   
+}
+
+#header ul li.active > a {
+    color: #35d0ba;
+    font-weight: bold;
+}
+
+
+.navbar-brand {
+    color: #35d0ba;
+    font-size: small;
+}
+
+#main .carousel-inner img {
+    max-height: 70vh;
+    object-fit: cover;
+
+    /*
+    object-fit: fill;
+    object-fit: contain;
+
+    object-fit: cover;
+    filter: grayscale(70%);
+    */
+}
+
+
+
+#footer {
+    padding-top: 10px;
+    background: #3dcdbc;
+    color: #ffff;
+}
+#footer a {
+    color: #ffff;    
+}
+
+/*
+a:hover, a:active, a:focus {
+    color: #35d0ba;
+    font-size: small;
+    outline: none;
+    text-decoration: none;
+    cursor: hand;
+}
+*/

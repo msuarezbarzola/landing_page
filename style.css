@@ -1,0 +1,33 @@
+
+      body {
+        background: lemonchiffon;
+      }
+
+      div {
+        color: #ffffff;
+      }
+
+      .clas-nuevo {
+        background: blue;
+        color: red;
+        font-weight: bold;
+        font-size: 24pt;
+      }
+
+      #otroid {
+        color: #ffffff;
+      }
+
+
+      h1 {
+          color: blue;
+      }
+
+
+      .este_estilo {
+        background: yellow;
+      }
+
+      #mititulo {
+        color: red;
+      }
